@@ -15,16 +15,16 @@
                         <i class="fa-solid fa-house"></i> Inicio</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-user"></i> Conocenos</a>
+                    <a class="nav-link" href="conocenos.php"><i class="fa-solid fa-user"></i> Conocenos</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-shop"></i> Tienda</a>
+                    <a class="nav-link" href="tienda.php"><i class="fa-solid fa-shop"></i> Tienda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+                    <a class="nav-link" href="carrito.php"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#"><i class="fa-solid fa-right-to-bracket"></i> Iniciar sesión</a>
+                    <a class="nav-link" href="registro.php"><i class="fa-solid fa-right-to-bracket"></i> Iniciar sesión</a>
                 </li>
             </ul>
         </div>

@@ -7,5 +7,5 @@
     <!-- Kit Icons FontAwesome -->
     <script src="https://kit.fontawesome.com/a239af1c0c.js" crossorigin="anonymous"></script>
     <!-- CSS personalizado -->
-    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="src/assets/css/style.css" />
 </head>
