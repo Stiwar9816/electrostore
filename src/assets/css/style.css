@@ -1,0 +1,22 @@
+.banner__title {
+  font-size: 70px;
+  font-weight: 500;
+}
+.banner__subtitle {
+  font-weight: 400;
+  font-size: 30px;
+}
+
+.title__conocenos{
+  font-weight: 600;
+  font-size: 30px;
+}
+
+.carrito__info{
+  font-weight: 700;
+  font-size: 40rem;
+}
+
+.list-social {
+  list-style: none;
+}
