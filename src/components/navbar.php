@@ -21,7 +21,7 @@
                     <a class="nav-link" href="./tienda.php"><i class="fa-solid fa-shop"></i> Tienda</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="./carrtio.php"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
+                    <a class="nav-link" href="./carrito.php"><i class="fa-solid fa-cart-shopping"></i> Carrito</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="./login.php"><i class="fa-solid fa-right-to-bracket"></i> Iniciar sesión</a>
