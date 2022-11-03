@@ -14,7 +14,7 @@
     <main class="form-signin w-100 m-auto">
         <form>
             <img class="mb-4" src="./src/assets/img/logo.png" alt="" width="160" height="140">
-            <h1 class="h3 mb-3 fw-normal">Inicio de sesión</h1>           
+            <h1 class="h3 mb-3 fw-normal">Inicio de sesión</h1>
             <div class="form-floating">
                 <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com">
                 <label for="floatingInput">Usuario</label>
@@ -30,6 +30,9 @@
             <p class="mt-5 mb-3 text-muted">&copy; 2022</p>
         </form>
     </main>
+    <!-- Scripts JS Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
 </body>
 
 </html>

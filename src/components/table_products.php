@@ -17,7 +17,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -28,7 +32,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -39,7 +47,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -50,7 +62,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -61,7 +77,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -72,7 +92,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -83,7 +107,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -94,7 +122,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -105,7 +137,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -116,7 +152,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -127,7 +167,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>
@@ -138,7 +182,11 @@
             <td>2011-04-25</td>
             <td>$320,800</td>
             <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
+                <!-- Button update modal -->
+                <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#updateProducts">
+                    <i class="fa-solid fa-pen-to-square"></i>
+                </button>
+                <!-- End Button update modal -->
                 <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
             </td>
         </tr>

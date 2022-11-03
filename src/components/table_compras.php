@@ -5,8 +5,7 @@
             <th class="text-center">Nombre</th>
             <th class="text-center">Precio</th>
             <th class="text-center">Cantidad</th>
-            <th class="text-center">Subtotal</th>
-            <th class="text-center">Acciones</th>
+            <th class="text-center">Total</th>
         </tr>
     </thead>
     <tbody class="text-center">
@@ -16,10 +15,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -27,10 +22,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -38,10 +29,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -49,10 +36,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -60,10 +43,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -71,10 +50,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -82,10 +57,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -93,10 +64,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -104,10 +71,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -115,10 +78,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -126,10 +85,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
         <tr>
             <td>System Architect</td>
@@ -137,10 +92,6 @@
             <td>61</td>
             <td>2011-04-25</td>
             <td>$320,800</td>
-            <td>
-                <a href="#" class="btn btn-primary"><i class="fa-solid fa-pen-to-square"></i> </a>
-                <a href="#" class="btn btn-danger"><i class="fa-solid fa-trash"></i> </a>
-            </td>
         </tr>
 
     </tbody>
@@ -150,8 +101,7 @@
             <th class="text-center">Nombre</th>
             <th class="text-center">Precio</th>
             <th class="text-center">Cantidad</th>
-            <th class="text-center">Subtotal</th>
-            <th class="text-center">Acciones</th>
+            <th class="text-center">Total</th>
         </tr>
     </tfoot>
 </table>
