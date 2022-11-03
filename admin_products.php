@@ -1,14 +1,21 @@
+<?php
+$active_productos = 'active';
+
+?>
 <!DOCTYPE html>
 <html lang="es">
-<?php include_once('./src/components/head.php') ?>
+
+<!-- Head -->
+<?php include_once('src/components/head.php') ?>
+<!-- End Head -->
 
 <body>
     <!-- Navbar -->
-    <?php include_once('./src/components/navbar.php') ?>
+    <?php include_once('src/components/navbar.php') ?>
     <!-- End Navbar -->
     <div class="container">
         <!-- Banner -->
-        <?php include_once('./src/components/banner.php') ?>
+        <?php include_once('src/components/banner.php') ?>
         <!-- End Banner -->
 
         <h2 class="text-center mt-5">Listados de productos</h2>
@@ -20,18 +27,18 @@
         <!-- End Button modal add products -->
 
         <!-- Modal_add_products -->
-        <?php include_once('./src/components/modal_add_products.php') ?>
+        <?php include_once('src/components/modal_add_products.php') ?>
         <!-- End Modal_add_products -->
         <!-- Table_products -->
-        <?php include_once('./src/components/table_products.php') ?>
+        <?php include_once('src/components/table_products.php') ?>
         <!-- End Table products -->
         <!-- Modal Update -->
-        <?php include_once('./src/components/modal_update.php') ?>
+        <?php include_once('src/components/modal_update.php') ?>
         <!-- End Modal update -->
 
         <div class="py-5"></div>
         <!-- Footer -->
-        <?php include_once('./src/components/footer.php') ?>
+        <?php include_once('src/components/footer.php') ?>
         <!-- End Footer -->
     </div>
     <!-- Scripts JS Datatables -->
