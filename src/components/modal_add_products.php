@@ -9,11 +9,15 @@
             <div class="modal-body">
                 <form>
                     <div class="row">
-                        <div class="col-6 mb-3">
+                    <div class="col-6 mb-3">
+                            <label for="imagen" class="col-form-label">Imagen:</label>
+                            <input type="file" class="form-control" id="imagen">
+                        </div>
+                        <div class="col-3 mb-3">
                             <label for="ean" class="col-form-label">EAN:</label>
                             <input type="number" min="0" class="form-control" id="ean">
                         </div>
-                        <div class="col-6 mb-3">
+                        <div class="col-3 mb-3">
                             <label for="marca" class="col-form-label">Marca:</label>
                             <input type="text" class="form-control" id="marca">
                         </div>
