@@ -1,15 +1,21 @@
+<?php
+$active_carrito = 'active';
+?>
 <!DOCTYPE html>
 <html lang="en">
-<?php include_once('./src/components/head.php') ?>
+
+<!-- Head -->
+<?php include_once('src/components/head.php') ?>
+<!-- End Head -->
 
 <body>
     <!-- Navbar -->
-    <?php include_once('./src/components/navbar.php') ?>
+    <?php include_once('src/components/navbar.php') ?>
     <!-- End Navbar -->
 
     <div class="container">
         <!-- Banner -->
-        <?php include_once('./src/components/banner.php') ?>
+        <?php include_once('src/components/banner.php') ?>
         <!-- End Banner -->
 
         <div class="carrito text-center py-5">
@@ -20,7 +26,7 @@
         </div>
 
         <!-- Footer -->
-        <?php include_once('./src/components/footer.php') ?>
+        <?php include_once('src/components/footer.php') ?>
         <!-- End Footer -->
     </div>
     <!-- Scripts JS Bootstrap -->
