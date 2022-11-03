@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php include_once('./src/components/head_admin.php') ?>
+<?php include_once('./src/components/head.php') ?>
 
 <body>
     <!-- Navbar -->

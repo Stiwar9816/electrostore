@@ -10,4 +10,6 @@
     <link rel="stylesheet" href="../assets/css/style.css" />
     <!-- CSS Login -->
     <link rel="stylesheet" href="../assets/css/sigin.css">
+    <!-- CSS Datatables -->
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
 </head>

@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
-<?php include_once('./src/components/head_admin.php') ?>
+<?php include_once('./src/components/head.php') ?>
 
 <body>
     <!-- Navbar -->
@@ -13,7 +13,7 @@
         <h2 class="text-center mt-5">Ultimas compras</h2>
 
         <!-- Table_products -->
-        <?php include_once('./src/components/table_products.php') ?>
+        <?php include_once('./src/components/table_compras.php') ?>
         <!-- End Table products -->
 
         <div class="py-5"></div>
