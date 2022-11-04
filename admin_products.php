@@ -1,6 +1,7 @@
 <?php
 $active_productos = 'active';
-
+session_start();
+include('src/utils/is_logout.php');
 ?>
 <!DOCTYPE html>
 <html lang="es">
@@ -37,9 +38,6 @@ $active_productos = 'active';
         <!-- End Modal update -->
 
         <div class="py-5"></div>
-        <!-- Footer -->
-        <?php include_once('src/components/footer.php') ?>
-        <!-- End Footer -->
     </div>
     <!-- Scripts JS Datatables -->
     <script src="https://code.jquery.com/jquery-3.5.1.js"></script>

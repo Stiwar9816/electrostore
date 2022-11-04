@@ -8,6 +8,7 @@
     <script src="https://kit.fontawesome.com/a239af1c0c.js" crossorigin="anonymous"></script>
     <!-- CSS personalizado -->
     <link rel="stylesheet" href="./src/assets/css/style.css">
+    <link rel="stylesheet" href="./src/assets/css/sigin.css">
     <!-- CSS Datatables -->
     <link rel="stylesheet" href="https://cdn.datatables.net/1.12.1/css/dataTables.bootstrap5.min.css">
     <!-- Favicon -->
