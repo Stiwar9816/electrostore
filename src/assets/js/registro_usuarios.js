@@ -12,6 +12,7 @@ $("#registro_usuarios").submit((event) => {
         $('#mensaje_respuesta').html(mensaje);
         if (mensaje.includes('registrado')) {
             $('#registro_usuarios')[0].reset();
+            location.replace('login.php');
         }
     }
   });
