@@ -1,5 +1,8 @@
 <?php
 $active_index = 'active';
+session_start();
+$_SESSION['user'] = 'user';
+include('src/utils/is_logout.php');
 ?>
 
 <!DOCTYPE html>

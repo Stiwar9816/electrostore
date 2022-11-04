@@ -1,3 +1,7 @@
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
 <footer class="pt-5">
     <div class="row">
         <div class="col-md-6 col-xs-12 mb-4">
@@ -26,7 +30,7 @@
                 <h5>Contactenos</h5>
                 <div class="d-flex w-100 gap-2 mb-3">
                     <label for="nombre" class="visually-hidden">Nombre</label>
-                    <input id="nombre" type="text" class="form-control" placeholder="Nombre completo">
+                    <input id="nombre_completo" type="text" class="form-control" placeholder="Nombre completo">
                 </div>
                 <div class="d-flex w-100 gap-2 mb-3">
                     <label for="asunto" class="visually-hidden">Asunto</label>
@@ -47,5 +51,5 @@
             <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-instagram"></i></a></li>
             <li class="ms-3"><a class="link-dark" href="#"><i class="fa-brands fa-twitter"></i></a></li>
         </ul>
-    </div>
+    </div> 
 </footer>

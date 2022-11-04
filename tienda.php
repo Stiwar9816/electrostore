@@ -1,6 +1,7 @@
 <?php
 $active_tienda = 'active';
-
+session_start();
+include('src/utils/is_logout.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">
