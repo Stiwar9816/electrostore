@@ -4,7 +4,7 @@
 
 <footer class="pt-5">
     <div class="row">
-        <div class="col-6">
+        <div class="col-md-6 col-xs-12 mb-4">
             <ul class="list-social">
                 <li>
                     <i class="fa-solid fa-city"></i>
@@ -19,10 +19,13 @@
                     <a href="mailto:yeilersoulja@gmail.com">yeilersoulja@gmail.com</a>
                 </li>
             </ul>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1985.0703566040263!2d-76.6582539696976!3d5.692799234310115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1589350781602!5m2!1ses-419!2sco" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+            <div class="container">
+
+                <iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d1985.0703566040263!2d-76.6582539696976!3d5.692799234310115!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sco!4v1589350781602!5m2!1ses-419!2sco" width="500" height="350" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
         </div>
 
-        <div class="col-5 offset-1">
+        <div class="col-md-6 col-xs-12">
             <form>
                 <h5>Contactenos</h5>
                 <div class="d-flex w-100 gap-2 mb-3">
