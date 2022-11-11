@@ -1,20 +1,18 @@
-// $("#inicio_sesion").submit((event) => {
-//   let parametros = $("form").serialize();
-//   $.ajax({
-//     type: "POST",
-//     url: "src/controllers/iniciar_sesion.php",
-//     data: parametros,
-//     cache: false,
-//     beforeSend: (objeto) => {
-//       $("#mensaje_respuesta").html("Mensaje: Cargando...");
-//     },
-//     success: (mensaje) => {
-//       // $("#mensaje_respuesta").html(mensaje);
-//       // location.replace("admin_compras.php");
-//       //   if (mensaje.includes('registrado')) {
-//       //       $('#inicio_sesion')[0].reset();
-//       //   }
-//     },
-//   });
-//   event.preventDefault();
-// });
+$("#inicio_sesion").submit((event) => {
+  let parametros = $("form").serialize();
+  $.ajax({
+    type: "POST",
+    url: "src/controllers/iniciar_sesion.php",
+    data: parametros,
+    cache: false,
+    success: (message) => {
+      if (!message.includes("DOCTYPE")) {
+        $("#mensaje_respuesta").html(message);
+      }
+      if (message.includes("DOCTYPE")) {
+        location.reload();
+      }
+    },
+  });
+  event.preventDefault();
+});
