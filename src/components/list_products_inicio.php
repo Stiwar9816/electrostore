@@ -1,4 +1,4 @@
-<?php $query_productos = mysqli_query($con, "SELECT * FROM productos"); ?>
+<?php $query_productos = mysqli_query($con, "SELECT * FROM productos ORDER BY precio asc LIMIT 6"); ?>
 <div class="align-center">
     <div class="row mt-5">
     <?php

@@ -2,6 +2,8 @@
 $active_tienda = 'active';
 session_start();
 include('src/utils/is_logout.php');
+include_once('src/config/db.php');
+include_once('src/config/conexion.php');
 ?>
 <!DOCTYPE html>
 <html lang="en">

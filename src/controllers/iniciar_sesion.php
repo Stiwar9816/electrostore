@@ -1,12 +1,12 @@
 <?php
-require_once('../config/db.php');
-require_once('../config/conexion.php');
-include('../utils/is_logout.php');
+
+$con = new mysqli('localhost','root','','electrostore');
+
 
 if (empty($_POST['usuario'])) {
-    $errors[] = "Campo usuario esta vacío";
+    $errors[] = 'Campo usuario esta vacío';
 } elseif (empty($_POST['password'])) {
-    $errors[] = "Contraseña vacío";
+    $errors[] = 'Contraseña vacío';
 } elseif (!empty($_POST['usuario']) && !empty($_POST['password'])) {
     $usuario = mysqli_real_escape_string($con, $_POST['usuario']);
     $sql = "SELECT usuario,correo,password,privilegio FROM usuarios where usuario = '$usuario'";
@@ -22,10 +22,10 @@ if (empty($_POST['usuario'])) {
                 $_SESSION['correo'] = $cadena_resultado->correo;
                 $_SESSION['privilegio'] = $cadena_resultado->privilegio;
                 if ($_SESSION['privilegio'] != 1) {
-                    header("location:" . URL_BASE . "index.php");
+                    header("location: ../../index.php");
                     exit();
                 }
-                header("location:" . URL_BASE . "admin_compras.php");
+                header("location: ../../admin_compras.php");
                 exit();
             } else {
                 $errors[] = 'Contraseña incorrecta';
@@ -37,11 +37,31 @@ if (empty($_POST['usuario'])) {
         $errors[] = 'Usuario incorrecto';
     }
 }
-
-
+if($_POST){
 if (isset($errors)) {
-    include('../components/mensaje_error.php');
+    ?>
+    <div class="alert alert-danger alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    <strong>Error!</strong>
+    <?php
+    foreach ($errors as $error) {
+        echo $error;
+    }
+    ?>
+</div>
+<?php
 }
 if (isset($messages)) {
-    include('../components/mensaje_exito.php');
+    ?>
+<div class="alert alert-success alert-dismissible fade show" role="alert">
+    <button type="button" class="btn-close" data-bs-dismiss="alert" ></button>
+    <strong>¡Bien hecho!</strong>
+    <?php
+    foreach ($messages as $message) {
+        echo $message;
+    }
+    ?>
+</div>
+<?php
+}
 }

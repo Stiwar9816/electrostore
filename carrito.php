@@ -3,9 +3,10 @@
 $active_carrito = 'active';
 session_start();
 include('src/utils/is_logout.php');
+// include('src/utils/is_logged.php');
 ?>
 <?php
-if (isset($_SESSION["usuario"])) {
+if (!isset($_SESSION["usuario"])) {
 	print "<script>alert(\"Acción imposible primero inicia sesion antes de comprar!\");window.location='login.php';</script>";
 }
 

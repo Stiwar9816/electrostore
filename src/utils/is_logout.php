@@ -5,6 +5,7 @@ define('URL_BASE', '//'.$_SERVER['SERVER_NAME'].'/electrostore/');
 if (isset($_GET['logout'])) {
     unset($_SESSION['privilegio']);
     unset($_SESSION['usuario']);
+    unset($_SESSION['correo']);
     session_destroy();
     header("location:" . URL_BASE . "index.php");
     exit();

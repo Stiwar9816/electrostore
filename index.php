@@ -3,6 +3,8 @@ $active_index = 'active';
 session_start();
 $_SESSION['user'] = 'user';
 include('src/utils/is_logout.php');
+include_once('src/config/db.php');
+include_once('src/config/conexion.php');
 ?>
 
 <!DOCTYPE html>
@@ -28,7 +30,7 @@ include('src/utils/is_logout.php');
     </div>
 
     <!-- List products -->
-    <?php include_once('src/components/list_products.php') ?>
+    <?php include_once('src/components/list_products_inicio.php') ?>
     <!-- End List products -->
 
     <!-- Publicidad -->
@@ -48,7 +50,7 @@ include('src/utils/is_logout.php');
             <img src="src/assets/img/nota-lg-tv-plus.png" class="card-img-top" alt="...">
             <div class="card-body">
               <h5 class="card-title">!Excelente calidad en productos¡</h5>
-              <p class="card-text">Llevate nuestros productos de buena calidad a un precio muy econmico para tu bolsillo que esperar, se estan agotando.¡
+              <p class="card-text">Llevate nuestros productos de buena calidad a un precio muy econmico para tu bolsillo que esperar, se estan agotando.¡</p>
             </div>
           </div>
         </div>

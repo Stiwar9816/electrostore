@@ -10,6 +10,10 @@
                 <form>
                     <div class="row">
                         <div class="col-6 mb-3">
+                            <label for="imagen" class="col-form-label">Imagen:</label>
+                            <input type="file" class="form-control" id="imagen">
+                        </div>
+                        <div class="col-6 mb-3">
                             <label for="ean" class="col-form-label">EAN:</label>
                             <input type="number" min="0" class="form-control" id="ean">
                         </div>
@@ -34,7 +38,7 @@
 
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                <button type="button" class="btn btn-danger" data-bs-dismiss="modal">Cerrar</button>
                 <button type="button" class="btn btn-primary">Guardar</button>
             </div>
         </div>
