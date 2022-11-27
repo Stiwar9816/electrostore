@@ -11,6 +11,7 @@ function is_user_logged_in()
     return false;
 }
 include('src/controllers/iniciar_sesion.php');
+include('src/helpers/formato_moneda.php');
 ?>
 
 <?php
