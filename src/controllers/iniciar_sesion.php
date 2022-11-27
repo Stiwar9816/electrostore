@@ -9,7 +9,7 @@ if (empty($_POST['usuario'])) {
     $errors[] = 'Contraseña vacío';
 } elseif (!empty($_POST['usuario']) && !empty($_POST['password'])) {
     $usuario = mysqli_real_escape_string($con, $_POST['usuario']);
-    $sql = "SELECT usuario,correo,password,privilegio FROM usuarios where usuario = '$usuario'";
+    $sql = "SELECT nombre_completo,usuario,correo,password,privilegio FROM usuarios where usuario = '$usuario'";
     $resultado = mysqli_query($con, $sql);
     $cadena_resultado = mysqli_fetch_object($resultado);
 
@@ -21,6 +21,8 @@ if (empty($_POST['usuario'])) {
                 $_SESSION['usuario'] = $cadena_resultado->usuario;
                 $_SESSION['correo'] = $cadena_resultado->correo;
                 $_SESSION['privilegio'] = $cadena_resultado->privilegio;
+                $_SESSION['nombre'] = $cadena_resultado->nombre_completo;
+                $_SESSION['carrito'] =[];
                 if ($_SESSION['privilegio'] != 1) {
                     header("location: ../../index.php");
                     exit();

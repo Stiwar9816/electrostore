@@ -19,10 +19,10 @@ $numero_venta = 0;
             echo '<tr>
 						<td><img src="src/assets/img/' . $row['imagen'] . '" width="100px" heigth="100px" /></td>
 						<td>' . $row['nombre'] . '</td>
-						<td>' . $row['precio'] . '</td>
+						<td>' . moneda_cop($row['precio'] ). '</td>
 						<td>' . $row['cantidad'] . '</td>
 						<td>' . $row['fecha_registro'] . '</td>
-						<td>' . $row['subtotal'] . '</td>
+						<td>' . moneda_cop($row['subtotal']) . '</td>
 
 					</tr>';
         }

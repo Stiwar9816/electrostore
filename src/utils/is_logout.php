@@ -6,6 +6,7 @@ if (isset($_GET['logout'])) {
     unset($_SESSION['privilegio']);
     unset($_SESSION['usuario']);
     unset($_SESSION['correo']);
+    unset($_SESSION['carrito']);
     session_destroy();
     header("location:" . URL_BASE . "index.php");
     exit();

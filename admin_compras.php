@@ -6,6 +6,8 @@ include('src/utils/is_logout.php');
 include('src/utils/is_logged.php');
 include_once('src/config/db.php');
 include_once('src/config/conexion.php');
+include('src/helpers/formato_moneda.php');
+
 ?>
 <!DOCTYPE html>
 <html lang="es">
