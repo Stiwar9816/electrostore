@@ -1,7 +1,7 @@
 <?php
 require_once('../config/db.php');
 require_once('../config/conexion.php');
-require_once('../config/redirecion.php');
+// require_once('../config/redirecion.php');
 if (empty($_POST['nombre'])) {
     $errors[] = "Nombre vacío";
 } elseif (empty($_POST['usuario'])) {
